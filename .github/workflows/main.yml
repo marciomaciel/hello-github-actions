@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: 'execute test script'
-        run: python test.py
+        run: python --version
 #       - uses: ./action-a
 #         with:
 #           MY_NAME: "Mona"
